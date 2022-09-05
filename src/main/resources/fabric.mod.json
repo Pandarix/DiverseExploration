@@ -9,8 +9,8 @@
     "Pandarix"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Pandarix/DiverseExploration/wiki",
+    "sources": "https://github.com/Pandarix/DiverseExploration"
   },
 
   "license": "MIT License",
@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.Pandarix.diverseexploration.DiverseExploration"
+    ],
+    "client": [
+      "net.Pandarix.diverseexploration.DiverseExplorationClient"
     ]
   },
   "mixins": [

@@ -43,7 +43,8 @@ public class SkyStructures extends Structure {
                          int size,
                          HeightProvider startHeight,
                          Optional<Heightmap.Type> projectStartToHeightmap,
-                         int maxDistanceFromCenter) {
+                         int maxDistanceFromCenter)
+    {
         super(config);
         this.startPool = startPool;
         this.startJigsawName = startJigsawName;
